@@ -14,8 +14,14 @@
         "illuminate/console": "5.7.*|5.8.*|^6.0|^7.0|^8.0",
         "illuminate/support": "5.7.*|5.8.*|^6.0|^7.0|^8.0",
         "illuminate/routing": "5.7.*|5.8.*|^6.0|^7.0|^8.0",
-        "infusionsoft/php-sdk": "^1.4"
+        "infusionsoft/php-sdk": "dev-l8"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/evanrthompson/infusionsoft-php"
+    }
+    ],
     "autoload": {
         "psr-4": {
             "Upwebdesign\\Infusionsoft\\": "src/"
